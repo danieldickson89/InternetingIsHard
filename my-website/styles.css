@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+    padding-bottom: 15px;
+    background-color: darkgray;
+}
+
+.page {
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightskyblue;
+}
+
+ul {
+    background-color: aquamarine;
+    overflow: hidden;
+    list-style: none;
+    font-weight: bold;
+}
+
+li {
+    float: left;
+    padding: 15px 20px;
+    width: 20%;
+    text-align: center;
+}
+
+.content {
+    height: 800px;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkgrey;
+}
