@@ -20,14 +20,16 @@ h1, h3 {
 ul {
     background-color: aquamarine;
     overflow: hidden;
-    list-style: none;
+    list-style-type: none;
     font-weight: bold;
+    max-height: 48px;
 }
 
 li {
     float: left;
     padding: 15px 20px;
     width: 20%;
+    min-width: 152px;
     text-align: center;
 }
 

@@ -33,8 +33,17 @@
 .page {
     width: 900px;
     margin: 0 auto;
+}
+
+.container {
     overflow: hidden;
     background-color: #EAEDF0;
 }
 
-
+.column {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: #B2D6FF;
+}
