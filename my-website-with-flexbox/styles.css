@@ -98,3 +98,8 @@ p {
     color: grey;
     background-color: aquamarine;
 }
+
+.homeTitle:link, .homeTitle:visited, .homeTitle:active, .homeTitle:hover {
+    color: black;
+    text-decoration: none;
+}

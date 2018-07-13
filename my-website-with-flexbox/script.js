@@ -9,15 +9,22 @@ $(document).ready(function(){
   
         // Store hash
         var hash = this.hash;
+        var extraOffset = 0;
+        if (hash !== "#top") {
+          extraOffset += 150
+        } else {
+          extraOffset = 5000
+        }
   
         // Using jQuery's animate() method to add smooth page scroll
         // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
         $('html, body').animate({
-          scrollTop: $(hash).offset().top - 150
+          
+          scrollTop: $(hash).offset().top - extraOffset
         }, 800, function(){
      
           // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash -150;
+          window.location.hash = hash - extraOffset;
         });
       } // End if
     });
