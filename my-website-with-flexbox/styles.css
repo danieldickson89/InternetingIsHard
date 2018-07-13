@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Helvetica", "Arial", sans-serif;
+    background-color: darkgray;
+}
+
+.fixedTopBar {
+    position: fixed;
+    width: 100%;
 }
 
 .header {
@@ -11,10 +17,12 @@
     background-color: darkgray;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .header-item {
-    padding: 0 100px;
+    flex: 1;
 }
 
 h1, h3 {
@@ -24,6 +32,11 @@ h1, h3 {
 h2 {
     text-align: center;
     margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    width: 100%;
 }
 
 ul {
@@ -35,28 +48,13 @@ ul {
     font-weight: bold;
     height: 50px;
     max-height: 48px;
-    position: relative;
 }
 
 li {
     width: 250px;
     min-width: 152px;
     text-align: center;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    height: 2000px;
-    padding-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.footer {
-    width: 100%;
-    height: 100px;
-    background-color: darkgrey;
+    background-color: aquamarine;
 }
 
 .coverImage {
@@ -65,19 +63,38 @@ li {
     object-fit: cover;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: whitesmoke;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: darkgrey;
+}
+
 .section {
     margin-bottom: 150px;
+    background-color: whitesmoke;
 }
 
 p {
     text-align: center;
+    background-color: whitesmoke;
 }
 
 .menuItem:link, .menuItem:visited, .menuItem:active {
     color: black;
     text-decoration: none;
+    background-color: aquamarine;
 }
 
 .menuItem:hover {
     color: grey;
+    background-color: aquamarine;
 }
