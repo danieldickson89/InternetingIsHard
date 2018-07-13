@@ -123,3 +123,16 @@ td {
 em, strong {
     background-color: whitesmoke;
 }
+
+.workDetails, .workDetails > li {
+    background-color: whitesmoke;
+}
+
+.workDetails {
+    padding: 20px 80px;
+}
+
+.workDetails > li {
+    width: 100%;
+    padding-bottom: 20px;
+}
