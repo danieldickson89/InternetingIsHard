@@ -39,7 +39,7 @@ h2 {
     width: 100%;
 }
 
-ul {
+.navigation {
     background-color: aquamarine;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ ul {
     max-height: 48px;
 }
 
-li {
+.navItem {
     width: 250px;
     min-width: 152px;
     text-align: center;
