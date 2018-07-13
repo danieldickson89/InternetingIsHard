@@ -101,12 +101,11 @@ p {
 
 .homeTitle:link, .homeTitle:visited, .homeTitle:active, .homeTitle:hover {
     color: black;
+    background-color: darkgrey;
     text-decoration: none;
 }
 
 table {
-    display: flex;
-    justify-content: center;
     background-color: whitesmoke;
 }
 
@@ -115,13 +114,54 @@ tbody, tr {
 }
 
 td {
-    flex: 1;
     background-color: whitesmoke;
-    padding: 40px;
+    padding: 20px 20px;
 }
 
-em, strong {
+em, strong, a {
     background-color: whitesmoke;
+}
+
+.educationTable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.educationData {
+    flex: 1;
+    width: 250px;
+}
+
+.schoolLogo {
+    height: 64px;
+    width: 90px;
+    object-fit: cover;
+}
+
+.workEntry {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: whitesmoke;
+    margin: auto 120px;
+    padding-bottom: 40px;
+}
+
+.workInfo {
+    flex: 1;
+    margin-right: 40px;
+    border: 1px solid darkgrey;
+}
+
+.workData {
+    border: 1px solid darkgrey;
+}
+
+.workDataHeader {
+    text-align: center;
+    border: 1px solid darkgrey;
 }
 
 .workDetails, .workDetails > li {
@@ -129,10 +169,21 @@ em, strong {
 }
 
 .workDetails {
-    padding: 20px 80px;
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .workDetails > li {
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+
+}
+
+.spacer {
+    background: whitesmoke;
+    width: 100%;
+    height: 40px;
 }
