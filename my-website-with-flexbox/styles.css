@@ -79,7 +79,7 @@ h2 {
 }
 
 .section {
-    margin-bottom: 150px;
+    margin-bottom: 80px;
     background-color: whitesmoke;
 }
 
@@ -151,17 +151,10 @@ em, strong, a {
 
 .workInfo {
     flex: 1;
-    margin-right: 40px;
-    border: 1px solid darkgrey;
-}
-
-.workData {
-    border: 1px solid darkgrey;
 }
 
 .workDataHeader {
     text-align: center;
-    border: 1px solid darkgrey;
 }
 
 .workDetails, .workDetails > li {
@@ -169,7 +162,7 @@ em, strong, a {
 }
 
 .workDetails {
-    flex: 1.5;
+    flex: 1.25;
     display: flex;
     justify-content: center;
     align-items: center;
