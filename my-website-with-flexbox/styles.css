@@ -25,6 +25,11 @@
     flex: 1;
 }
 
+.headerInfoItem:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
 h1, h3 {
     text-align: center;
 }

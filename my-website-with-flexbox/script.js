@@ -29,3 +29,11 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+  function contactMe() {
+    alert("You should totally talk to this guy!");
+  }
+
+  function workAtUVU() {
+    alert("Working at UVU is the BEST!");
+  }
