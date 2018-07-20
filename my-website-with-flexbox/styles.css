@@ -118,9 +118,14 @@ tbody, tr {
     background-color: whitesmoke;
 }
 
+tr {
+    display: flex;
+}
+
 td {
     background-color: whitesmoke;
     padding: 20px 20px;
+    flex: 1;
 }
 
 em, strong, a {
