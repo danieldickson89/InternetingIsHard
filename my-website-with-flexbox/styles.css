@@ -201,7 +201,9 @@ em, strong, a {
 .imageContainer {
     flex: 1;
     display: flex;
+    height: 150px;
     justify-content: center;
+    align-items: center;
     background-color: whitesmoke;
 }
 
