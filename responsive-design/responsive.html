@@ -3,6 +3,7 @@
 
 <head>
     <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-calse=1.0, maximum scale=1.0' />
     <title>Responsive Design</title>
     <link rel='stylesheet' href='styles.css' />
 </head>
@@ -13,7 +14,12 @@
             <img src='images/header.svg'/>
         </div>
         <div class='section content'>
-            <img src='images/content.svg'/>
+            <div class='illustration'>
+                <img src='illustration-small.png'
+                     srcset='images/illustration-small.png 1x,
+                             images/illustration-big.png 2x' 
+                     style='max-width: 500px'/>
+            </div> 
         </div>
         <div class='section sign-up'>
             <img src='images/sign-up.svg'/>
@@ -30,3 +36,5 @@
     </div>
 </body>
 </html>
+
+
