@@ -214,3 +214,23 @@ em, strong, a {
     width: auto;
     height: auto;
 }
+
+.bucketListDetailsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.bucketListDetails, .bucketListDetails > li {
+    background-color: whitesmoke;
+}
+
+.bucketListDetails {
+    flex: 1;
+}
+
+.bucketListDetails > li {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style-type: none;
+}
