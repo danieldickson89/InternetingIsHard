@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 1.8em;
   color: #5D6063;
@@ -184,7 +184,6 @@ nav a:visited:active {
   }
 }
 
-
 @media only screen and (min-width: 750px) {
   nav {
     padding-left: 2em;
@@ -198,4 +197,9 @@ nav a:visited:active {
   nav li:nth-of-type(2n) {
     border-left: none;
   }
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light-webfont.woff') format('woff');
 }
